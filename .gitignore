@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# --- Extensiones para Java ---
+*.class
+*.jar
+*.war
+*.ear
+/out/
+/bin/
+
+# --- IDEs (VS Code, Visual Studio, JetBrains) ---
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.filters

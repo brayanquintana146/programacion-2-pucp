@@ -1,0 +1,17 @@
+#ifndef OPERADORES_CLINICA_ENUMS_H
+#define OPERADORES_CLINICA_ENUMS_H
+
+enum Especialidad {
+    CARDIOLOGIA,
+    DERMATOLOGIA,
+    NEUROLOGIA,
+    PEDIATRIA,
+    PSIQUIATRIA
+};
+
+enum Estado {
+    RESERVADA,
+    CANCELADA
+};
+
+#endif //OPERADORES_CLINICA_ENUMS_H
