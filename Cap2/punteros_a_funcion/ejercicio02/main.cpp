@@ -1,0 +1,14 @@
+#include <iostream>
+#include "funciones.h"
+
+using namespace std;
+
+int main() {
+    void *clinica;
+    cargarDatos(clinica,"pacientes.csv","doctores.csv","citas.csv","cancelaciones.csv");
+    cancelarCitas(clinica);
+    ofstream reporte("reporte-clinica.txt", ios::out);
+    imprimirReporte(reporte, clinica);
+
+    return 0;
+}
